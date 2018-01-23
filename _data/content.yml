@@ -1,10 +1,10 @@
 home:
   title: "Hotteheads cheatsheets"
   tagline: |
-    Hey! I'm <a href='https://pixel-pub.de'>@hottehead</a> and this my modest collection of cheatsheets.
+    Hey! I'm <a href='http://pixel-pub.de/about/'>@hottehead</a> and this my modest collection of cheatsheets.
 
 top_nav:
-  title: Pixel Pub
+  title: Hottehead
   edit: Edit
   edit_on_github: Edit this page on GitHub
 

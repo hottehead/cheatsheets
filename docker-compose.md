@@ -24,21 +24,28 @@ services:
     image: redis
 ```
 
-### Commands
+### Lifecycle
 
 ```sh
 docker-compose start
 docker-compose stop
+docker-compose restart
 ```
 
 ```sh
-docker-compose pause
-docker-compose unpause
+docker-compose up [-d]
 ```
 
 ```sh
 docker-compose ps
-docker-compose up
+docker-compose top
+docker-compose logs [-f] [--tail 50] [container]
+```
+
+### Cleanup
+
+```sh
+docker-compose rm
 docker-compose down
 ```
 
